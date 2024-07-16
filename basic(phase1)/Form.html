@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form{
+            border: 1px solid blue;
+        }
+        input{
+            border: 1px solid orange;
+        }
+        label{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="color: tomato;">Form</h1>
+    <form action="">
+        <div align="center">
+            <label for="firstname">NAME :</label>
+            <input type="text" name="fname" placeholder="firstname (a-z)" required>
+        </div>
+        <div align="center">
+            <label for="lastname">lastname :</label>
+            <input type="text" name="lname" placeholder="lastname (a-z)" required>
+        </div>
+        <div align="center">
+            <label for="Gmail">Gmail :</label>
+            <input type="email" name="gmail" placeholder="Gmail" required>
+        </div>
+        <div align="center">
+            <label for="password">Password :</label>
+            <input type="password" name="password" placeholder="Password" required>
+        </div>
+        <div align="center">
+            <label for="Address">Address</label>
+            <textarea name="address" cols="20" rows="5"></textarea>
+        </div>
+        <div align="center">
+            <label for="age">Age : </label>
+            <input type="number" name="age" min="1" max="100" value="0" readonly>
+        </div>
+        <div align="center">
+            <label for="birthday">วันเกิด : </label>
+            <input type="date" name="birthdate">
+        </div>
+        <div align="center">
+            <label for="telehphone">numberphone</label>
+            <input type="tel" name="telephone">
+        </div>
+        <div align="center">
+            <label for="color">Color</label>
+            <input type="color" name="color" >
+        </div>
+        <div align="center">
+            <label for="range">Range</label>
+            <input type="range" name="range " value="1">
+        </div>
+        <div align="center">
+            <label for="edu">EDU</label>
+            <select name="edu" id="">
+                <option value="A">AA</option>
+                <option value="B">BB</option>
+                <option value="C" selected>CC</option>
+            </select>
+        </div>
+        <div align="center">
+            <label for="point">sex :</label>
+            <input type="radio" name="man" id="">man
+            <input type="radio" name="girl">girl
+            <input type="radio" name="etc.">etc.
+        </div>
+        <div align="center">
+            <label for="Box">favorite :</label>
+            <input type="checkbox" name="fav">Game
+            <input type="checkbox" name="fav">eat
+            <input type="checkbox" name="fav">sleep
+            <input type="checkbox" name="fav">etc.
+        </div>
+        <div align="center">
+            <label for="file">file :</label>
+            <input type="file">
+        </div>
+        <div align="center">
+            <label for="url">Url</label>
+            <input type="url">
+        </div>
+        <div align="center">
+            <label for="Commited">commited</label>
+            <input type="submit"> 
+            <!-- <button type="submit">summit</button> -->
+            <input type="reset">reset
+        </div>
+    </form>
+</body>
+</html>
