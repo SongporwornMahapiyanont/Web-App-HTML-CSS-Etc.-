@@ -1,0 +1,32 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+#container{
+    display: flex;
+    background-color: violet;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    /* flex-shrink: 1; */
+    /* flex-wrap: wrap; */
+    /* nowrap is default  */
+}   
+.item{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+main div p
+{
+    background-color: tomato;
+}
+main div>p{
+    background-color: aqua;
+}
